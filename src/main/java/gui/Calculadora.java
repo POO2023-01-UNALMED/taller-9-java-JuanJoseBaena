@@ -13,7 +13,7 @@ public class Calculadora extends Application  {
 	
 	@Override
 	public void start(Stage window) throws Exception {
-		Vbox vb = new VBox();
+		VBox vb = new VBox();
 		window.setTitle("Calculadora");
 		
 		vb.getChildren().add(new Calculator());
